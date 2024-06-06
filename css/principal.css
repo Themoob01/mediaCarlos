@@ -1,0 +1,63 @@
+.igmarriba {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#imgarriba {}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-shadow: 7px 7px 7px powderblue;
+}
+
+#titulo {
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(7, 0, 0);
+
+}
+
+div {
+    border: 1px solid gray;
+    padding: 15px;
+    background-color: rgb(221, 231, 80);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    box-shadow: 5px 5px 5px 5px aqua;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    font-size: 30px;
+    color: black;
+    transition: 0.5s all ease-in-out;
+}
+
+.contenido {
+    display: flex;
+}
+
+@media(min-width: 200px) and (max-width:360px) {}
+
+@media(min-width: 360px)and (max-width:500px) {}
+
+@media(min-width: 500px)and (max-width:1024px) {}
+
+@media(min-width: 1024px)and (max-width:1600px) {}
